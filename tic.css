@@ -1,0 +1,117 @@
+/*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim' cursive;
+}
+.back{
+    background-color: #121818;
+    height: 100vh;
+    padding-top: 1px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+}
+.display{
+    color: white;
+    font-size: 25px;
+    text-align: 40px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.hide{
+    display: none;
+}
+.container{
+    margin:  0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+.title{
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: 50px;
+    cursor: pointer;
+}
+.playerX{
+    color: #09C372;
+}
+.playerO{
+    color: #498AFB;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+#reset{
+    background-color: #FF3860;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}*/
+*{
+    background-color: #DFCFBE;
+}
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #34568B;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #009B77;
+    color: #9B2335;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 1px 1px #B55A30;
+    border: 1px solid #B55A30;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #6A2E2A;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #EFC050;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #5B5EA6;
+    box-shadow: 2px 2px 2px 2px #E15D44;
+    border: 2px solid #E15D44;
+}
